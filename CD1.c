@@ -18,6 +18,8 @@ int isKeyword(char *str) {
     return 0;
 }
 
+
+
 void tokenize(char *program) {
     char *token = strtok(program, " \t\n\r;(){}[],*+-/=<>&|!");
     while (token != NULL) {
