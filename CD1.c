@@ -3,6 +3,7 @@
 #include <ctype.h>
 #include <string.h>
 
+
 enum TokenType {
     KEYWORD, IDENTIFIER, CONSTANT, OPERATOR, SPECIAL_SYMBOL
 };
