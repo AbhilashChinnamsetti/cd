@@ -4,7 +4,6 @@
 
 %option noyywrap
 
-
 %%
 int|float|char|while|double|if|else|return|case|switch|goto|long|void|break {
     printf("Keyword: %s\n", yytext);
